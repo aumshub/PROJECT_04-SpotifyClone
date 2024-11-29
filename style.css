@@ -1,0 +1,21 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: sans-serif;
+}
+html, body {
+height: 100%;
+width: 100%;
+}
+
+.left{
+    width: 25vw;
+}
+.right{
+    width: 75vw;
+}
+.left ul li{
+    list-style: decimal;
+    width: 1.3rem;
+}
