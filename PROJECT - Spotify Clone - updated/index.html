@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/utility.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet" />
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="container flex bg-black">
+            <div class="left">
+                    <i class="ri-close-large-fill close"></i>
+                <div class="home rounded m-5 bg-grey">
+                    <div class="logo"><img width="110" class="invert" src="assets/images/logo.svg" alt="logo"></div>
+                    <ul>
+                        <li><img class="invert icon" src="assets/images/home.svg" alt="home-img">Home</li>
+                        <li><img class="invert icon" src="assets/images/search.svg" alt="search-img">Search</li>
+                    </ul>
+                </div>
+                <div class="library bg-grey rounded ">
+                    <div class="heading flex p-10">
+                        <img class="invert icon" src="assets/images/library.svg" alt="library-img">
+                        <h2>Your Library</h2>
+                    </div>
+                    <div class="songList">
+                        <ul>
+                            
+                        </ul>
+                    </div>
+                    <div class="footer">
+                        <div><a href=""><span>Legal</span></a></div>
+                        <div><a href=""><span>Privacy Center</span></a></div>
+                        <div><a href=""><span>Privacy Policy</span></a></div>
+                        <div><a href=""><span>Cookies</span></a></div>
+                        <div><a href=""><span>About Ads</span></a></div>
+                        <div><a href=""><span>Accessibility</span></a></div>
+                    </div>
+                </div>
+            </div>
+            <div class="right rounded bg-grey">
+                <div class="header rounded">
+                    <i class="ri-menu-2-fill hamburger"></i>
+                    <div class="nav">
+                        <div>
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                d="M15 6L9.70711 11.2929C9.37377 11.6262 9.20711 11.7929 9.20711 12C9.20711 12.2071 9.37377 12.3738 9.70711 12.7071L15 18"
+                                stroke="#ffffff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M9 18L14.2929 12.7071C14.6262 12.3738 14.7929 12.2071 14.7929 12C14.7929 11.7929 14.6262 11.6262 14.2929 11.2929L9 6"
+                                stroke="#ffffff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                    </div>
+                    </div>
+                    <div class="buttons">
+                        <button class="signupbtn">Sign Up</button>
+                        <button class="loginbtn">Login</button>
+                    </div>
+                </div>
+                <div class="spotifyPlaylist ">
+                    <h1>Spotify Playlists</h1>
+                    <div class="cardcontainer">
+                   
+                    </div>
+                    <div class="playbar rounded">
+                        <div class="seekbar">
+                            <div class="circle"></div>
+                        </div>
+                        <div class="abovebar">
+
+                        <div class="songinfo">
+
+                        </div>
+                        <div class="songbuttons">
+                            <i id="previous" class="ri-skip-left-fill"></i>
+                            <i id="play" class="ri-play-circle-fill"></i>
+                            <i id="pause" class="ri-pause-circle-fill" style="display: none;"></i>
+                            <i id="next" class="ri-skip-right-fill"></i>
+                        </div>
+                        <div class=".songTime-Vol" style="flex: 1; text-align: right; display: flex; flex-direction: column; text-align: right;">
+                                <div class="songtime"></div>
+                            <div class="volumecont"> 
+                                <i class="ri-volume-up-fill" id="volumebtn" ></i>
+                                <i class="ri-volume-mute-fill" id="mutebtn" ></i>
+                                <input type="range" name="volume" class="range" style="cursor: pointer;" >
+                            </div>
+                
+                        </div>
+                    </div>  
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="js/script.js"></script>
+</body>
+
+</html>
